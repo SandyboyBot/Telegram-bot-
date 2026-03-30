@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes, CommandHandler
 import yt_dlp
 
-TOKEN = os.getenv("8195590538:AAFTcHzxq8gORIYQ-7_oZtDrHKZcdLFU-LE")
+TOKEN = os.getenv("TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Link pampandi 📥")
