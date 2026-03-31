@@ -6,7 +6,7 @@ import yt_dlp
 TOKEN = os.getenv("TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Link pampandi 📥")
+    await update.message.reply_text("Link pampinche mundu /start ani type cheyandi📥")
 
 async def download(update: Update, context: ContextTypes.DEFAULT_TYPE):
     url = update.message.text
